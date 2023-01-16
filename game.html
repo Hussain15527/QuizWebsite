@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="modal"></div>
+    <div class="container">
+        <div class="addQuestion">
+            <img src="plusIcon.svg" alt="" class="plusIcon">
+        </div>
+
+        <div class="panel">
+            <h3 class="questionNumber">1/20</h3>
+            <h3 class="score">score: 0</h3>
+        </div>
+        <div id="game" class="flex-center flex-column">
+            <h2 id="question">what is the question?</h2>
+            <form action="" class="userInput">
+                <input type="text" class="answerInput">
+                <button type="submit" class="btn submitAnswer">submit</button>
+            </form>
+
+            <div class="navigation">
+                <button id="prev" class="btn">Previos</button>
+                <button id="next" class="btn">Next</button>
+            </div>
+        </div>    
+        
+        <div class="warning"></div> 
+        <!-- <div class="war">hello</div>    -->
+    </div>
+    
+
+
+
+    <script src="./game.js"></script>
+</body>
+</html>
